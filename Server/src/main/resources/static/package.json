@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "build": "parcel build js/index.html --public-url ./dist/",
+    "watch": "parcel js/index.html"
+  },
+  "devDependencies": {
+    "cssnano": "^4.1.7"
+  }
+}

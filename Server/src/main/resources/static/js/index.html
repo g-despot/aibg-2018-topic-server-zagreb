@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="../css/main.css" />
+    <link href="https://fonts.googleapis.com/css?family=Poor+Story" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+    </header>
+    <div id="particles"></div>
+    <div class="main">
+        <div class="player player1 active">
+            <canvas id="player1-avatar" width="100" height="100"></canvas>
+            <h2>Player 1</h2>
+            <div class="info"></div>
+            <div class="sponsors">
+                <img src="../gif/paldesk.png" alt="">
+                <img src="../gif/a1.png" alt="">
+                <img src="../gif/manpower.jpg" alt="">
+            </div>
+        </div>
+        <div class="canvas"><canvas id="game" width="820" height="820"></canvas></div>
+        <div class="player player2">
+            <canvas id="player2-avatar" width="100" height="100"></canvas>
+            <h2>Player 2</h2>
+            <div class="info"></div>
+            <div class="sponsors">
+                <img src="../gif/cloudsense.png" alt="">
+                <img src="../gif/kingict.png" alt="">
+                <img src="../gif/gideon.png" alt="">
+                <br />
+                <img src="../gif/tmatix.png" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="loading">
+        <div class="loading-content">
+            <h1>Waiting for game to start.</h1>
+        </div>
+    </div>
+    <div class="finished hidden">
+        <div class="finished-winner">
+            <h1>Player with id 1 won</h1>
+            <p>Congratulations</p>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="./index.js"></script>
+</body>
+</html>

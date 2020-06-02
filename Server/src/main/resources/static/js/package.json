@@ -1,0 +1,17 @@
+{
+  "name": "aibg-2018-topic-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:koscakluka/aibg-2018-topic-server.git",
+  "author": "<grgicfran@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.6",
+    "qs": "^6.6.0"
+  },
+  "devDependencies": {
+    "cssnano": "^4.1.7",
+    "sass": "^1.14.3"
+  }
+}
