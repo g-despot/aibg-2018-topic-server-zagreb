@@ -8,7 +8,7 @@
   "dependencies": {
     "jquery": "^3.5.0",
     "popper.js": "^1.14.6",
-    "qs": "^6.6.0"
+    "qs": "^6.6.1"
   },
   "devDependencies": {
     "cssnano": "^4.1.7",
